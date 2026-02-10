@@ -1,0 +1,22 @@
+body{
+    margin :0;
+    padding:0;
+    background: #000;
+}
+p {
+    font-size: 40px; /* Needs to be big to see the image */
+    font-weight: bold; /* Thicker text helps */
+    text-align: center;
+    
+    /* Background setup */
+    background: url(she.jpg) no-repeat center center;
+    background-size: cover;
+    
+    /* The magic clipping part */
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+    /* Make text transparent so background shows through */
+    -webkit-text-fill-color: transparent;
+    color: transparent; /* Fallback */
+}
