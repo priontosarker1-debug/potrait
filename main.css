@@ -4,7 +4,7 @@ body{
     background: #000;
 }
 p {
-    font-size: 40px; /* Needs to be big to see the image */
+    font-size: 30px; /* Needs to be big to see the image */
     font-weight: bold; /* Thicker text helps */
     text-align: center;
     
